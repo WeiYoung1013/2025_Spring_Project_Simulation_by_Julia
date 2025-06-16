@@ -1,0 +1,161 @@
+xmargin_mode: [0.6, 0.6]
+using simulation folder runs/cross
+loading problem from /home/oslab/Luminescent.jl/runs/cross
+========================================
+
+running Luminescent julia backend
+λ = F(center_wavelength) = 1.55f0
+setting up simulation...
+meshing geometry - can take few minutes...
+13.667252 seconds (10.57 M allocations: 810.630 MiB, 13.31% gc time, 74.32% compilation time)
+making sources...
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+making monitors...
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+making designs...
+----------------------------------------
+
+simulation setup complete
+
+backend: CPU
+float: Float32
+
+original size: (90, 64)
+padded size: (118, 94)
+cell count: 11,092
+
+step size: 20.0 steps/period
+max time: 39.50 periods
+time steps: 790
+
+computation load: 8,762,680 cell-steps
+========================================
+
+compiling simulation code...
+starting optimization... first iter will be slow due to adjoint compilation.
+
+[1]
+562.586393 seconds (85.83 M allocations: 14.087 GiB, 18.13% gc time, 28.55% compilation time)
+T o3@0,o1@0 λ=1.5 1.0: 0.79802036
+T o3@0,o1@0 λ=1.55 1.0: 0.79416525
+T o3@0,o1@0 λ=1.6 1.0: 0.84962356
+T o2@0,o1@0 λ=1.5 0: 0.01277937
+T o2@0,o1@0 λ=1.55 0: 0.015614314
+T o2@0,o1@0 λ=1.6 0: 0.023263155
+T o4@0,o1@0 λ=1.5 0: 0.012660494
+T o4@0,o1@0 λ=1.55 0: 0.020100618
+T o4@0,o1@0 λ=1.6 0: 0.029452603
+saving checkpoint...
+fractional change: 0.00920513247260127
+modified total loss: 0.22402045875787735
+----------------------------------------
+
+[2]
+183.869931 seconds (65.16 M allocations: 13.095 GiB, 10.17% gc time, 0.35% compilation time)
+T o3@0,o1@0 λ=1.5 1.0: 0.82006407
+T o3@0,o1@0 λ=1.55 1.0: 0.8620066
+T o3@0,o1@0 λ=1.6 1.0: 0.8727302
+T o2@0,o1@0 λ=1.5 0: 0.0019088575
+T o2@0,o1@0 λ=1.55 0: 0.0056759547
+T o2@0,o1@0 λ=1.6 0: 0.0099424645
+T o4@0,o1@0 λ=1.5 0: 0.0033780742
+T o4@0,o1@0 λ=1.55 0: 0.006815048
+T o4@0,o1@0 λ=1.6 0: 0.011991583
+fractional change: 0.008280148821547121
+modified total loss: 0.1616370378760621
+----------------------------------------
+
+[3]
+159.884743 seconds (64.90 M allocations: 13.082 GiB, 9.44% gc time, 0.02% compilation time)
+T o3@0,o1@0 λ=1.5 1.0: 0.9581082
+T o3@0,o1@0 λ=1.55 1.0: 0.8966669
+T o3@0,o1@0 λ=1.6 1.0: 0.9460871
+T o2@0,o1@0 λ=1.5 0: 0.0050389045
+T o2@0,o1@0 λ=1.55 0: 0.0077484194
+T o2@0,o1@0 λ=1.6 0: 0.012734187
+T o4@0,o1@0 λ=1.5 0: 0.004052605
+T o4@0,o1@0 λ=1.55 0: 0.0045851623
+T o4@0,o1@0 λ=1.6 0: 0.007271672
+fractional change: 0.012654306365455798
+modified total loss: 0.08018958568572997
+----------------------------------------
+
+[4]
+174.765495 seconds (64.90 M allocations: 13.082 GiB, 9.75% gc time, 0.01% compilation time)
+T o3@0,o1@0 λ=1.5 1.0: 0.892782
+T o3@0,o1@0 λ=1.55 1.0: 0.91623586
+T o3@0,o1@0 λ=1.6 1.0: 0.9045506
+T o2@0,o1@0 λ=1.5 0: 0.0030105398
+T o2@0,o1@0 λ=1.55 0: 0.002049728
+T o2@0,o1@0 λ=1.6 0: 0.0036949462
+T o4@0,o1@0 λ=1.5 0: 0.004567694
+T o4@0,o1@0 λ=1.55 0: 0.00394053
+T o4@0,o1@0 λ=1.6 0: 0.0042310604
+fractional change: 0.013682857818324477
+modified total loss: 0.10264201648533343
+----------------------------------------
+
+[5]
+183.565788 seconds (64.90 M allocations: 13.083 GiB, 9.59% gc time, 0.01% compilation time)
+T o3@0,o1@0 λ=1.5 1.0: 0.9626461
+T o3@0,o1@0 λ=1.55 1.0: 0.8570233
+T o3@0,o1@0 λ=1.6 1.0: 0.8675882
+T o2@0,o1@0 λ=1.5 0: 0.013997339
+T o2@0,o1@0 λ=1.55 0: 0.021264786
+T o2@0,o1@0 λ=1.6 0: 0.017295703
+T o4@0,o1@0 λ=1.5 0: 0.00236757
+T o4@0,o1@0 λ=1.55 0: 0.0034414507
+T o4@0,o1@0 λ=1.6 0: 0.003070606
+saving checkpoint...
+fractional change: 0.006076545918969091
+modified total loss: 0.12472660234197974
+----------------------------------------
+
+[6]
+184.637306 seconds (64.90 M allocations: 13.083 GiB, 9.82% gc time, 0.01% compilation time)
+T o3@0,o1@0 λ=1.5 1.0: 1.0056248
+T o3@0,o1@0 λ=1.55 1.0: 0.98804337
+T o3@0,o1@0 λ=1.6 1.0: 0.933169
+T o2@0,o1@0 λ=1.5 0: 0.005636027
+T o2@0,o1@0 λ=1.55 0: 0.010635614
+T o2@0,o1@0 λ=1.6 0: 0.009909589
+T o4@0,o1@0 λ=1.5 0: 0.00038096626
+T o4@0,o1@0 λ=1.55 0: 0.0012684305
+T o4@0,o1@0 λ=1.6 0: 0.0012524601
+
+Loss below threshold, stopping optimization.
+modified total loss: 0.03783182769742173
+----------------------------------------
+
+[7]
+
+
+<IPython.core.display.Image object>

@@ -1,0 +1,88 @@
+running luminescent python frontend
+running time 20m16s
+xmargin_mode: [0.5, 0.5]
+using simulation folder runs/splitter
+loading problem from /home/oslab/Luminescent.jl/runs/splitter
+========================================
+
+running Luminescent julia backend
+λ = F(center_wavelength) = 1.55f0
+setting up simulation...
+meshing geometry - can take few minutes...
+30.659510 seconds (9.86 M allocations: 9.935 GiB, 9.27% gc time, 33.53% compilation time)
+making sources...
+solving modal profile...
+2d
+making monitors...
+solving modal profile...
+2d
+solving modal profile...
+2d
+making designs...
+----------------------------------------
+
+simulation setup complete
+
+backend: CPU
+float: Float32
+
+original size: (101, 41)
+padded size: (133, 57)
+cell count: 7,581
+
+step size: 22.0 steps/period
+max time: 30.00 periods
+time steps: 660
+
+computation load: 5,003,460 cell-steps
+========================================
+
+compiling simulation code...
+starting optimization... first iter will be slow due to adjoint compilation.
+
+[1]
+380.312718 seconds (57.18 M allocations: 10.082 GiB, 13.20% gc time, 18.81% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.23854606
+saving checkpoint...
+fractional change: 0.008527835551692342
+modified total loss: 0.26145394146442413
+----------------------------------------
+
+[2]
+149.502657 seconds (36.95 M allocations: 9.110 GiB, 7.22% gc time, 0.51% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.33729956
+fractional change: 0.005332994552930184
+modified total loss: 0.16270044445991516
+----------------------------------------
+
+[3]
+126.360043 seconds (36.68 M allocations: 9.097 GiB, 8.40% gc time, 0.07% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.39963487
+fractional change: 0.006361141625397237
+modified total loss: 0.10036513209342957
+----------------------------------------
+
+[4]
+125.944982 seconds (36.68 M allocations: 9.097 GiB, 8.87% gc time, 0.05% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.44846973
+fractional change: 0.009300068817233317
+modified total loss: 0.051530271768569946
+----------------------------------------
+
+[5]
+122.877031 seconds (36.67 M allocations: 9.097 GiB, 8.58% gc time, 0.03% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.55695134
+saving checkpoint...
+fractional change: 0.0037929318300327928
+modified total loss: 0.05695134401321411
+----------------------------------------
+
+[6]
+127.256120 seconds (36.67 M allocations: 9.097 GiB, 9.24% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.51800764
+
+Loss below threshold, stopping optimization.
+modified total loss: 0.018007636070251465
+----------------------------------------
+
+[7]

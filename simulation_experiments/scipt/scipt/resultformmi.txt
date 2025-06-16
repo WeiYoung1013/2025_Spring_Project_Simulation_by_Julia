@@ -1,0 +1,448 @@
+xmargin_mode: [0.5, 0.5]
+using simulation folder runs/mmi_splitter
+loading problem from /home/oslab/Luminescent.jl/runs/mmi_splitter
+========================================
+
+running Luminescent julia backend
+λ = F(center_wavelength) = 1.55f0
+setting up simulation...
+meshing geometry - can take few minutes...
+12.090569 seconds (10.25 M allocations: 630.527 MiB, 16.96% gc time, 79.99% compilation time)
+making sources...
+solving modal profile...
+2d
+making monitors...
+solving modal profile...
+2d
+solving modal profile...
+2d
+solving modal profile...
+2d
+making designs...
+----------------------------------------
+
+simulation setup complete
+
+backend: CPU
+float: Float32
+
+original size: (126, 68)
+padded size: (157, 84)
+cell count: 13,188
+
+step size: 22.0 steps/period
+max time: 30.00 periods
+time steps: 660
+
+computation load: 8,704,080 cell-steps
+========================================
+
+compiling simulation code...
+starting optimization... first iter will be slow due to adjoint compilation.
+
+[1]
+241.181520 seconds (77.50 M allocations: 14.436 GiB, 8.00% gc time, 28.57% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.039811302
+T o3@0,o1@0 λ=1.55 0.5: 0.040025778
+saving checkpoint...
+fractional change: 0.0
+modified total loss: 0.460081459954381
+----------------------------------------
+
+[2]
+167.751182 seconds (57.35 M allocations: 13.468 GiB, 9.56% gc time, 0.05% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.039811302
+T o3@0,o1@0 λ=1.55 0.5: 0.040025778
+fractional change: 0.005917855953395354
+modified total loss: 0.460081459954381
+----------------------------------------
+
+[3]
+167.429958 seconds (57.34 M allocations: 13.471 GiB, 9.61% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.03222975
+T o3@0,o1@0 λ=1.55 0.5: 0.033937186
+fractional change: 0.0036285021634878214
+modified total loss: 0.4669165313243866
+----------------------------------------
+
+[4]
+177.606886 seconds (57.74 M allocations: 13.489 GiB, 8.97% gc time, 4.19% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.027417947
+T o3@0,o1@0 λ=1.55 0.5: 0.030417789
+fractional change: 0.002839980180404933
+modified total loss: 0.4710821323096752
+----------------------------------------
+
+[5]
+175.155183 seconds (57.35 M allocations: 13.474 GiB, 9.43% gc time, 0.04% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.022233639
+T o3@0,o1@0 λ=1.55 0.5: 0.024828285
+saving checkpoint...
+fractional change: 0.0035685861879749714
+modified total loss: 0.47646903805434704
+----------------------------------------
+
+[6]
+175.053508 seconds (57.70 M allocations: 13.493 GiB, 9.53% gc time, 0.53% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.019072516
+T o3@0,o1@0 λ=1.55 0.5: 0.022597186
+fractional change: 0.004078790648854794
+modified total loss: 0.4791651489213109
+----------------------------------------
+
+[7]
+168.911492 seconds (57.34 M allocations: 13.479 GiB, 9.41% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.010010337
+T o3@0,o1@0 λ=1.55 0.5: 0.012131243
+fractional change: 0.004001682769076273
+modified total loss: 0.48892920976504683
+----------------------------------------
+
+[8]
+174.662421 seconds (57.34 M allocations: 13.480 GiB, 9.40% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.003525443
+T o3@0,o1@0 λ=1.55 0.5: 0.005465556
+fractional change: 0.00513592769588248
+modified total loss: 0.4955045005772263
+----------------------------------------
+
+[9]
+171.950807 seconds (57.34 M allocations: 13.482 GiB, 9.57% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.00028603213
+T o3@0,o1@0 λ=1.55 0.5: 7.702561e-5
+fractional change: 0.003437475445491972
+modified total loss: 0.49981847113303957
+----------------------------------------
+
+[10]
+167.127017 seconds (57.34 M allocations: 13.482 GiB, 9.43% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 5.793024e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.0001981546
+saving checkpoint...
+fractional change: 0.0009853030292865485
+modified total loss: 0.49987195758330927
+----------------------------------------
+
+[11]
+169.890025 seconds (57.34 M allocations: 13.483 GiB, 9.65% gc time, 0.03% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 7.512047e-5
+T o3@0,o1@0 λ=1.55 0.5: 8.673993e-5
+fractional change: 0.0013375091474669986
+modified total loss: 0.4999190697999438
+----------------------------------------
+
+[12]
+170.710706 seconds (57.60 M allocations: 13.498 GiB, 9.65% gc time, 0.32% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.00031580322
+T o3@0,o1@0 λ=1.55 0.5: 7.696081e-6
+fractional change: 0.001573424276586449
+modified total loss: 0.49983825034951224
+----------------------------------------
+
+[13]
+168.060717 seconds (57.34 M allocations: 13.487 GiB, 9.54% gc time, 0.02% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 0.00017933187
+T o3@0,o1@0 λ=1.55 0.5: 0.00014052985
+fractional change: 0.0009404629216050143
+modified total loss: 0.4998400691401912
+----------------------------------------
+
+[14]
+177.589792 seconds (57.38 M allocations: 13.490 GiB, 9.71% gc time, 0.06% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 2.985974e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00019407502
+fractional change: 0.00018271799567965037
+modified total loss: 0.49988803261840076
+----------------------------------------
+
+[15]
+176.292677 seconds (57.38 M allocations: 13.491 GiB, 9.76% gc time, 0.04% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.6283888e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00023150863
+saving checkpoint...
+fractional change: 1.2395635973373605e-5
+modified total loss: 0.499876103740462
+----------------------------------------
+
+[16]
+171.359893 seconds (57.34 M allocations: 13.489 GiB, 9.58% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[17]
+169.056434 seconds (57.34 M allocations: 13.489 GiB, 9.59% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[18]
+166.460539 seconds (57.34 M allocations: 13.489 GiB, 9.95% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[19]
+169.472146 seconds (57.34 M allocations: 13.489 GiB, 9.88% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[20]
+174.028916 seconds (57.34 M allocations: 13.489 GiB, 9.34% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+saving checkpoint...
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[21]
+173.312541 seconds (57.34 M allocations: 13.489 GiB, 9.58% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[22]
+177.430949 seconds (57.34 M allocations: 13.489 GiB, 9.86% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[23]
+171.063632 seconds (57.34 M allocations: 13.489 GiB, 9.77% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[24]
+176.677567 seconds (57.34 M allocations: 13.489 GiB, 9.87% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[25]
+181.569637 seconds (57.34 M allocations: 13.489 GiB, 9.90% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+saving checkpoint...
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[26]
+181.058939 seconds (57.34 M allocations: 13.489 GiB, 9.50% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[27]
+172.706905 seconds (57.34 M allocations: 13.489 GiB, 9.62% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[28]
+176.177914 seconds (57.34 M allocations: 13.489 GiB, 9.44% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[29]
+170.504620 seconds (57.34 M allocations: 13.489 GiB, 9.68% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[30]
+174.794535 seconds (57.34 M allocations: 13.489 GiB, 9.37% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+saving checkpoint...
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[31]
+176.666920 seconds (57.34 M allocations: 13.489 GiB, 9.64% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[32]
+171.163249 seconds (57.34 M allocations: 13.489 GiB, 9.77% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[33]
+174.323900 seconds (57.34 M allocations: 13.489 GiB, 9.54% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[34]
+176.599725 seconds (57.34 M allocations: 13.489 GiB, 9.63% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[35]
+180.247369 seconds (57.34 M allocations: 13.489 GiB, 9.91% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+saving checkpoint...
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[36]
+179.122180 seconds (57.34 M allocations: 13.489 GiB, 9.49% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[37]
+171.181892 seconds (57.34 M allocations: 13.489 GiB, 10.26% gc time, 0.01% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[38]
+171.033163 seconds (57.34 M allocations: 13.489 GiB, 9.76% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[39]
+168.694454 seconds (57.34 M allocations: 13.489 GiB, 9.62% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[40]
+175.661826 seconds (57.34 M allocations: 13.489 GiB, 9.47% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+saving checkpoint...
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[41]
+176.482983 seconds (57.34 M allocations: 13.489 GiB, 9.60% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[42]
+178.166393 seconds (57.34 M allocations: 13.489 GiB, 10.28% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[43]
+172.291919 seconds (57.34 M allocations: 13.489 GiB, 9.81% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[44]
+171.534536 seconds (57.34 M allocations: 13.489 GiB, 9.70% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[45]
+179.548175 seconds (57.34 M allocations: 13.489 GiB, 9.46% gc time, 0.01% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+saving checkpoint...
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[46]
+178.904145 seconds (57.34 M allocations: 13.489 GiB, 9.64% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[47]
+170.365459 seconds (57.34 M allocations: 13.489 GiB, 9.88% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[48]
+172.017590 seconds (57.34 M allocations: 13.489 GiB, 9.86% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[49]
+171.821359 seconds (57.34 M allocations: 13.489 GiB, 9.63% gc time, 0.00% compilation time)
+T o2@0,o1@0 λ=1.55 0.5: 1.5972346e-5
+T o3@0,o1@0 λ=1.55 0.5: 0.00022409303
+fractional change: 0.0
+modified total loss: 0.4998799673103349
+----------------------------------------
+
+[50]
+
+
+<IPython.core.display.Image object>

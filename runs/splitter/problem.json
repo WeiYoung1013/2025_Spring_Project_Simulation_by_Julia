@@ -1,0 +1,68 @@
+{
+    "name": "splitter",
+    "N": 2,
+    "approx_2D_mode": "TM",
+    "dtype": "float32",
+    "center_wavelength": 1.55,
+    "xmargin": 2.0,
+    "ymargin": 2.0,
+    "runs": [
+        {
+            "sources": {
+                "in": {
+                    "type": "mode",
+                    "position": [0.0, 0.0],
+                    "direction": [1.0, 0.0],
+                    "polarization": [0.0, 1.0]
+                }
+            },
+            "monitors": {
+                "out1": {
+                    "type": "mode",
+                    "position": [10.0, 2.0],
+                    "direction": [1.0, 0.0],
+                    "polarization": [0.0, 1.0]
+                },
+                "out2": {
+                    "type": "mode",
+                    "position": [10.0, -2.0],
+                    "direction": [1.0, 0.0],
+                    "polarization": [0.0, 1.0]
+                }
+            }
+        }
+    ],
+    "ports": {
+        "in": {
+            "type": "mode",
+            "position": [0.0, 0.0],
+            "direction": [1.0, 0.0],
+            "polarization": [0.0, 1.0]
+        },
+        "out1": {
+            "type": "mode",
+            "position": [10.0, 2.0],
+            "direction": [1.0, 0.0],
+            "polarization": [0.0, 1.0]
+        },
+        "out2": {
+            "type": "mode",
+            "position": [10.0, -2.0],
+            "direction": [1.0, 0.0],
+            "polarization": [0.0, 1.0]
+        }
+    },
+    "dl": 0.02,
+    "xs": [-5.0, 15.0],
+    "ys": [-5.0, 5.0],
+    "zs": [0.0, 0.0],
+    "components": {
+        "splitter": {
+            "type": "splitter",
+            "position": [5.0, 0.0],
+            "width": 0.5,
+            "length": 10.0,
+            "gap": 2.0
+        }
+    }
+} 
